@@ -1,0 +1,43 @@
+
+# iDDA-Cast Experimental Environment
+# Python 3.10 / PyTorch 2.2.2 / CUDA 11.8
+
+name: idda-cast
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  - pip:
+      # PyTorch (CUDA 11.8)
+      - --extra-index-url https://download.pytorch.org/whl/cu118
+      - torch==2.2.2+cu118
+
+      # LLM Backbones
+      - transformers==4.44.2
+      - sentencepiece==0.1.99
+
+      # Training
+      - accelerate==1.2.1
+      - deepspeed==0.14.0
+
+      # Data Processing
+      - numpy==1.23.5
+      - pandas==1.5.3
+      - scikit-learn==1.2.2
+      - scipy==1.11.4
+
+      # Tensor Operations
+      - einops==0.7.0
+
+      # Utilities
+      - tqdm==4.70.1
+
+      # Optional: Visualization
+      # - matplotlib==3.10.9
+
+      # Optional: PEFT / LoRA
+      # - peft==0.21.3

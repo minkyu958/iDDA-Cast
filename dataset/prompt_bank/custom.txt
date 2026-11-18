@@ -1,0 +1,4 @@
+The dataset contains weekly influenza-like illness (ILI) surveillance data.
+It records the temporal patterns of influenza-like illness activity.
+The forecasting task is to predict future weekly illness trends
+using historical observations.

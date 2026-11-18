@@ -125,7 +125,7 @@ The following table summarizes representative ETTh1 results.
 
 | Configuration | MSE (96) | MSE (192) |
 |---|---:|---:|
-| iDDA-LCA | **0.3710** | **0.3979** |
+| iDDA-LCA | **0.3720** | **0.3979** |
 | w/o Trend | 0.4331 | 0.4729 |
 | w/o Seasonal | 0.5100 | 0.5391 |
 | w/o Event | 0.3858 | 0.4295 |
